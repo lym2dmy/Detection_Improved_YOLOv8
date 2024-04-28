@@ -3,7 +3,8 @@ path: '/content/Fracture_Detection_Improved_YOLOv8/GRAZPEDWRI-DX/data'
 train: 'images/train_aug'
 val: 'images/valid'
 test: 'images/test'
-epochs: 10
+epochs: 100
+patience: 10
 batch: -1
 
 nc: 4
